@@ -1,0 +1,26 @@
+# Example targets file for NmapVulnFinder batch scanning
+# Lines starting with # are comments and will be ignored
+
+# Single IP addresses
+192.168.1.1
+10.0.0.1
+
+# Hostnames
+scanme.nmap.org
+example.com
+
+# CIDR ranges (use --expand-cidrs flag to expand)
+192.168.1.0/24
+10.0.0.0/28
+
+# Different network ranges
+172.16.1.0/24
+192.168.100.0/24
+
+# Public test targets (safe to scan)
+scanme.nmap.org
+testphp.vulnweb.com
+
+# Local development servers
+localhost
+127.0.0.1
