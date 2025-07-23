@@ -1,0 +1,20 @@
+{
+  "notifications_enabled": true,
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "your-email@gmail.com",
+    "password": "your-app-password",
+    "to_email": "security-team@company.com"
+  },
+  "webhook": {
+    "enabled": true,
+    "url": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK"
+  },
+  "telegram": {
+    "enabled": true,
+    "bot_token": "YOUR_BOT_TOKEN",
+    "chat_id": "YOUR_CHAT_ID"
+  }
+}
